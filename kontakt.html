@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="initial-scale=1, width=device-width">
+  	
+  	<link rel="stylesheet"  href="./index4.css" />
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" />
+  	
+  	
+  	
+</head>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const form = document.getElementById("formulaz");
+
+  if (!form) return;
+
+  const komunikat = document.createElement("p");
+  komunikat.id = "komunikat";
+  komunikat.style.color = "green";
+  komunikat.style.display = "none";
+  komunikat.textContent = "Formularz został wysłany!";
+  form.appendChild(komunikat);
+
+  form.addEventListener("submit", function (e) {
+    e.preventDefault(); // ⛔ Zatrzymaj wysyłanie
+
+    let isValid = true;
+    const inputs = form.querySelectorAll("input[type='text'], input[type='email'], textarea");
+
+    inputs.forEach(function (input) {
+      if (!input.value.trim()) {
+        input.classList.add("error");
+        isValid = false;
+      } else {
+        input.classList.remove("error");
+      }
+    });
+
+    if (isValid) {
+      komunikat.style.display = "block";
+      form.reset();
+
+      // Ukryj komunikat po 3 sek
+      setTimeout(() => {
+        komunikat.style.display = "none";
+      }, 3000);
+    }
+  });
+});
+</script>
+
+<body>
+  	<div class="main-wrapper">
+  	<div class="kontakt">
+    		<div class="na-grze-1">
+      			<div class="items">
+      			</div>
+    		</div>
+    		<div class="to">
+    		</div>
+    		<div class="tekst">
+      			<div class="input-parent">
+        				<div class="input">
+        				</div>
+        				<div class="input1">
+        				</div>
+        				<form id="formulaz" class="input-group" action="#" method="post">
+  <div class="row">
+    <div class="input-box">
+      <label for="imie">Imię:</label>
+      <input type="text" id="imie" name="imie" required placeholder="Imię">
+    </div>
+
+    <div class="input-box">
+      <label for="nazwisko">Nazwisko:</label>
+      <input type="text" id="nazwisko" name="nazwisko" required placeholder="Nazwisko">
+    </div>
+  </div>
+
+  <div class="column">
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" name="email" required placeholder="E-mail">
+
+    <label for="wiadomosc">Miejsce na wiadomość:</label>
+    <textarea id="wiadomosc" name="wiadomosc" rows="5" required placeholder="Wpisz swoje pytanie, zamówienie, wiadomość"></textarea>
+  </div>
+
+  <div class="button">
+    <button type="submit" class="button3">Wyślij</button>
+  </div>
+</form>
+
+      			</div>
+      			<div class="tekst-inner">
+        				<div class="formula-wrapper">
+          					<div class="formula">Formulaż</div>
+        				</div>
+      			</div>
+    		</div>
+    		<div class="kontakt-inner">
+      			<div class="rectangle-wrapper">
+        				<div class="group-child">
+        				</div>
+      			</div>
+    		</div>
+    		<div class="kontakt-child">
+    		</div>
+    		<div class="group-parent">
+      			<div class="infolinia-parent">
+        				<div class="infolinia">Infolinia</div>
+        				<div class="text">
+          					<div class="text1">
+            						<div class="w-godz-700">W godz. 7.00 - 20.00</div>
+            						<div class="e-mail-infobulazranagmailc">
+              							<span class="e-mail-infobulazranagmailc1">
+                								<p class="wpadlimy-ci-w">E-mail: info.bulaZrana@gmail.com</p>
+                								<p class="wpadlimy-ci-w">Tel.: +48 525 786 435 | +48 525 786 436</p>
+              							</span>
+            						</div>
+          					</div>
+        				</div>
+      			</div>
+      			<div class="biuro-parent">
+        				<div class="biuro">Biuro</div>
+        				<div class="text2">
+          					<div class="text3">
+            						<div class="w-godz-800">W godz. 8.00 - 16.00</div>
+            						<div class="e-mail-biurobulazranagmail">
+              							<p class="wpadlimy-ci-w">E-mail: biuro.bulaZrana@gmail.com</p>
+              							<p class="wpadlimy-ci-w">Tel.: +48 504 869 371</p>
+            						</div>
+          					</div>
+        				</div>
+      			</div>
+    		</div>
+    		<div class="buazranapl">BułaZrana.pl</div>
+    		<div class="buttons-icon">
+    		</div>
+    		<div class="icon-parent">
+      			<img class="icon" alt="" src="svg/insta.svg">
+      			
+      			<img class="buttons-icon1" alt="" src="svg/fb.svg">
+      			
+      			<div class="wpadlimy-ci-w-container">
+        				<p class="wpadlimy-ci-w">Wpadliśmy ci w smak?</p>
+        				<p class="wpadlimy-ci-w">Poznaj nas bliżej na innych platformach!</p>
+      			</div>
+      			<a class="httpswwwfacebookcombuaz" href="https://www.facebook.com/BułaZrana" target="_blank">https://www.facebook.com/BułaZrana</a>
+      			<div class="httpswwwinstagramcombua">https://www.instagram.com/BułaZrana</div>
+    		</div>
+    		<div class="bd-na-bieco-parent">
+      			<div class="bd-na-bieco">Bądź na bieżąco!</div>
+      			<div class="nie-przegap-naszych">Nie przegap naszych akcji promocyjnych.</div>
+    		</div>
+            </div>
+    		<div class="na-tgrze-3">
+                     <div class="main-wrapper">
+      			<dive class ="menu-wrapped">
+        			 <div class="items1">
+                        <a class="tomasz" href="index.html">Strona główna</a>
+                        <a class="tomasz" href="oferta.html">Oferta</a>
+                        <a class="tomasz" href="jaktodziała.html">Jak to działa</a>
+                        <a class="tomasz" href="kontakt.html">Kontakt</a>
+                        <a class="tomasz" href="onas.html">O nas</a>	
+			         </div>
+					 <div class="frame">
+				         <a class="zaloguj" href="hasło.html">Zaloguj</a>
+    		         </div>
+				 </div>
+                 	</dive>
+	  		
+        <div class="na-tgrze-2">
+			<div class="main-wrapper">
+			<img class="logo-1-icon" alt="" src="zdj/logo1.png">
+			</div>
+		</div>
+  	
+  	
+  	
+  	
+</body>
+</html>
