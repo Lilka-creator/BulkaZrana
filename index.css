@@ -1,3 +1,5 @@
+@media (min-width: 601px) {
+
 .main-wrapper {
 	position: relative;  
   max-width: 1980px;  
@@ -966,5 +968,976 @@ line-height: 150%; /* 30px */
   	color: #000;
   	font-family: Inter;
 }
+}
+
+/* ========== MOBILE (max-width: 600px) ========== */
+@media (max-width: 600px) {
+  .main-wrapper {
+	position: relative;  
+  max-width: 600px;  
+  width: 100%;    
+  margin: 0 auto;          
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 11px;
+}
+
+.menu-wrapped {
+	  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  gap: 7px;
+}
+
+.frame {
+	
+  	position: absolute;
+  	right: calc(50% - 300px + 24px);
+  	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  	border-radius: 3px;
+  	background-color: #000;
+  	width: 131px;
+  	height: 48px;
+  	display: flex;
+  	flex-direction: row;
+  	padding: 0px 7px;
+  	box-sizing: border-box;
+  	text-align: center;
+	color: #fff;
+	justify-content: center;
+    align-items: center;}
+
+.zaloguj {
+  width: 44px;
+  line-height: 50%;
+  font-weight: 167;
+  display: flex;
+  flex-shrink: 0;
+  color: #fff; 
+  text-decoration: none;
+font-family: Inter;
+font-size: 7px;
+font-style: normal;
+align-items: center;
+  justify-content: center;
+}
+
+.zaloguj:hover {
+  color: #a01f80;
+}
 
 
+.na-tgrze-2 {
+  	position: fixed;
+  	width: 100%;
+  	top: 0px;
+  	right: 0px;
+  	left: 0px;
+  	background-color: rgb(255, 255, 255);
+  	box-sizing: border-box;
+  	height: 40px;
+  	overflow: hidden;
+  	font-size: 7px;
+	display: flex;
+  align-items: center;  
+}	
+
+.na-tgrze-3 {
+  	position: fixed;
+  	width: 100%;
+  	top: 110px;
+  	right: 0px;
+  	left: 0px;
+  	background-color: rgb(216, 192, 230);
+  	box-sizing: border-box;
+  	height: 26px;
+  	overflow: hidden;
+  	font-size: 7px;
+	display: flex;
+  align-items: center; 
+  z-index:1000;
+  justify-content: flex-end;
+  
+
+}
+
+.logo-1-icon {
+  	position: absolute;
+  	top: -100px;
+  	left: calc(50% - 300px + 24px);
+  	width: 68px;
+  	height: 68px;
+  	object-fit: cover;
+}
+
+.items1 {
+	 position: relative;
+	 display: flex;
+	 align-items: center;
+	 justify-content: flex-end;
+	 gap: 7px;
+  margin-right: calc(50% - 300px + 24px); 
+  height: 100%;
+  box-sizing: border-box;
+  white-space: nowrap;
+  font-family: Inter;
+font-size: 7px;
+font-style: normal;
+font-weight: 167;
+line-height: 50%; /* 30px */
+
+  
+}
+
+.items1 a {
+  display: inline-block; 
+  margin: 0 3px;
+  color: #000000;
+  font-weight: 167;
+  font-size: 7px;
+  text-decoration: none;
+  line-height: 1;
+}
+
+.items1 a:hover {
+  color: #a01f80;
+}
+
+.to {
+  	position: absolute;
+  	top: 175px;
+  	left: 0px;
+  	background-color: rgba(216, 192, 230, 0.31);
+  	width: 1979px;
+  	height: 4373px;
+}
+
+.inni-ju-wyprbowali {
+  	position: absolute;
+  	top: 3857px;
+  	left: calc(50% - 143px);
+  	font-size: 16px;
+  	letter-spacing: -0.02em;
+  	font-weight: 200;
+  	display: inline-block;
+  	width: 290px;
+}
+.ratuj-mj-kady {
+  	align-self: stretch;
+  	position: relative;
+  	line-height: 50%;
+  	font-weight: 167;
+}
+.tomasz {
+  	position: relative;
+  	line-height: 50%;
+  	font-weight: 167;
+}
+.upada-gwiazda-buyzrana {
+  	position: relative;
+  	line-height: 50%;
+  	font-weight: 167;
+  	color: #828282;
+}
+.tomasz-parent {
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 1px;
+}
+.avatar {
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-start;
+  	font-size: 5px;
+}
+.customer-quote {
+  	position: absolute;
+  	top: 3962.5px;
+  	left: 187.1px;
+  	border-radius: 4px;
+  	background-color: #fff;
+  	border: 1px solid #e6e6e6;
+  	box-sizing: border-box;
+  	width: 135.4px;
+  	height: 78px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	padding: 11px;
+  	gap: 16px;
+}
+.customer-quote1 {
+  	position: absolute;
+  	top: 3962.5px;
+  	left: 344.2px;
+  	border-radius: 4px;
+  	background-color: #fff;
+  	border: 1px solid #e6e6e6;
+  	box-sizing: border-box;
+  	width: 135.4px;
+  	height: 78px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	padding: 11px;
+  	gap: 16px;
+}
+.kady-znajdzie-co {
+  	align-self: stretch;
+  	position: relative;
+  	line-height: 50%;
+  	font-weight: 167;
+  	display: inline-block;
+  	height: 24px;
+  	flex-shrink: 0;
+}
+.customer-quote2 {
+  	position: absolute;
+  	top: 3962.5px;
+  	left: 344.2px;
+  	border-radius: 4px;
+  	background-color: #fff;
+  	border: 1px solid #e6e6e6;
+  	box-sizing: border-box;
+  	width: 135.4px;
+  	height: 78px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	padding: 11px;
+  	gap: 16px;
+}
+.buazranapl {
+  	position: absolute;
+  	top: 178px;
+  	left: 24px;
+  	line-height: 50%;
+}
+.buttons-icon {
+  	position: absolute;
+  	top: 136px;
+  	left: 297px;
+  	border-radius: 1px;
+  	width: 13px;
+  	height: 13px;
+}
+.divider {
+  	position: absolute;
+  	top: 0.5px;
+  	left: 26.5px;
+  	border-top: 1px solid #e5a0d1;
+  	box-sizing: border-box;
+  	width: 427px;
+  	height: 1px;
+}
+.icon {
+  	position: absolute;
+  	top: 125px;
+  	left: 3px;
+  	width: 8px;
+  	height: 8px;
+  	object-fit: cover;
+}
+.buttons-icon1 {
+  	position: absolute;
+  	top: 78px;
+  	left: 0px;
+  	border-radius: 1px;
+  	width: 13px;
+  	height: 13px;
+  	object-fit: cover;
+}
+.wpadlimy-ci-w {
+  	margin: 0;
+}
+.wpadlimy-ci-w-container {
+  	position: absolute;
+  	top: 0px;
+  	left: 3px;
+  	font-size: 7px;
+  	line-height: 50%;
+  	font-weight: 167;
+  	display: inline-block;
+  	width: 150px;
+  	height: 22px;
+}
+.httpswwwfacebookcombuaz {
+  	position: absolute;
+  	top: 85px;
+  	left: 8px;
+  	text-decoration: underline;
+  	line-height: 50%;
+  	font-weight: 167;
+  	color: inherit;
+  	display: inline-block;
+  	width: 150px;
+  	height: 11px;
+	text-decoration: none;
+}
+.httpswwwinstagramcombua {
+  	position: absolute;
+  	top: 125px;
+  	left: 16px;
+  	line-height: 50%;
+  	font-weight: 167;
+}
+.icon-parent {
+  	position: absolute;
+  	top: 53px;
+  	left: 470px;
+  	width: 166px;
+  	height: 50px;
+  	font-size: 5px;
+  	color: #922554;
+}
+.stopka {
+  	position: absolute;
+  	width: 100%;
+  	right: 0px;
+  	bottom: 0px;
+  	left: 0px;
+  	background-color: #e5a0d1;
+  	height: 264px;
+  	overflow: hidden;
+}
+.items {
+  	position: absolute;
+  	top: 56px;
+  	right: 27px;
+  	width: 44px;
+  	height: 17px;
+}
+.na-pocztku {
+  	position: absolute;
+  	width: 100%;
+  	top: 0px;
+  	right: 1px;
+  	left: -1px;
+  	background-color: #fff;
+  	height: 97px;
+  	overflow: hidden;
+}
+.bakery-4937230-2-icon {
+  	position: absolute;
+  	top: 87px;
+  	left: 29px;
+  	width: 77px;
+  	height: 77px;
+  	object-fit: cover;
+}
+.image {
+  	align-self: stretch;
+  	position: relative;
+  	border-radius: 3px;
+  	height: 135px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.copy {
+  	width: 127px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: center;
+}
+.card {
+  	position: absolute;
+  	top: 3117px;
+  	left: 58px;
+  	width: 135px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 8px;
+}
+.image3 {
+  	position: absolute;
+  	top: 0px;
+  	left: -168px;
+  	width: 203px;
+  	height: 135px;
+}
+.motorbike-12869881-1 {
+  	position: absolute;
+  	top: 65px;
+  	left: 21px;
+  	width: 92px;
+  	height: 92px;
+}
+.delivery-6707452-1-icon {
+  	position: absolute;
+  	top: 68px;
+  	left: 22px;
+  	width: 90px;
+  	height: 90px;
+  	object-fit: cover;
+}
+.card1 {
+  	position: absolute;
+  	top: 3117px;
+  	left: 263px;
+  	width: 135px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 8px;
+}
+.div {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 135px;
+  	height: 135px;
+}
+.bakery-4937230-1 {
+  	position: absolute;
+  	top: 46px;
+  	left: 18px;
+  	width: 298px;
+  	height: 298px;
+}
+.image-4 {
+  	position: absolute;
+  	top: -548px;
+  	left: -182px;
+  	width: 500px;
+  	height: 500px;
+}
+.woman-1886775-1-icon {
+  	position: absolute;
+  	top: 66px;
+  	left: 25px;
+  	width: 86px;
+  	height: 86px;
+  	object-fit: cover;
+}
+.card2 {
+  	position: absolute;
+  	top: 3117px;
+  	left: 467px;
+  	width: 135px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 8px;
+}
+.nasz-zesp-codziennie-container {
+  	position: absolute;
+  	top: 3602px;
+  	left: 58px;
+  	font-size: 7px;
+  	letter-spacing: -0.04em;
+  	line-height: 50%;
+  	text-align: justify;
+  	display: inline-block;
+  	width: 135px;
+  	height: 30px;
+}
+.wybierasz-swoj-ulubion-container {
+  	position: absolute;
+  	top: 3602px;
+  	left: 467px;
+  	font-size: 7px;
+  	letter-spacing: -0.04em;
+  	line-height: 50%;
+  	text-align: justify;
+  	display: inline-block;
+  	width: 135px;
+  	height: 30px;
+}
+.nasz-dostawca-przywozi-container {
+  	position: absolute;
+  	top: 3602px;
+  	left: 262px;
+  	font-size: 7px;
+  	letter-spacing: -0.04em;
+  	line-height: 50%;
+  	text-align: justify;
+  	display: inline-block;
+  	width: 135px;
+  	height: 30px;
+}
+.to-takie-proste {
+  	position: absolute;
+  	top: 2977px;
+  	left: 226px;
+  	font-size: 16px;
+  	letter-spacing: -0.02em;
+  	font-weight: 200;
+  	text-align: center;
+  	display: inline-block;
+  	width: 21px;
+}
+.zdecydowany {
+  	position: absolute;
+  	top: 9px;
+  	left: calc(50% - 200px);
+  	font-size: 16px;
+  	letter-spacing: -0.02em;
+  	font-weight: 200;
+  	color: #000;
+  	text-align: left;
+  	display: inline-block;
+  	width: 208px;
+}
+.kontakt {
+  	width: 50px;
+  	position: relative;
+  	line-height: 50%;
+  	font-weight: 167;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	flex-shrink: 0;
+	color:#fff
+}
+
+.kontakt:hover {
+	color:#a01f80;
+}
+
+.icon1 {
+  	position: absolute;
+  	height: 27.76%;
+  	width: 27.76%;
+  	top: 8.33%;
+  	right: 2.8%;
+  	bottom: 2.8%;
+  	left: 2.78%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+	color:#fff
+}
+
+.icon1:hover {
+	color:#a01f80
+}
+
+.arrow-right-circle {
+  	width: 16px;
+  	position: relative;
+  	height: 16px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.button {
+  	position: absolute;
+  	top: 0px;
+  	left: 205px;
+  	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  	border-radius: 3px;
+  	background-color: #000;
+  	width: 77px;
+  	height: 25px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-start;
+  	padding: 7px 11px 7px 0px;
+  	box-sizing: border-box;
+  	gap: 3px;
+}
+.sprawd-ofert {
+  	width: 83px;
+  	position: relative;
+  	line-height: 50%;
+  	font-weight: 167;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	flex-shrink: 0;
+	color: #fff;
+}
+
+.sprawd-ofert:hover{
+	color: #a01f80;
+}
+
+.button1 {
+  	position: absolute;
+  	top: 0px;
+  	left: 358px;
+  	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  	border-radius: 3px;
+  	background-color: #000;
+  	width: 109px;
+  	height:25px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-start;
+  	padding: 7px 11px 7px 0px;
+  	box-sizing: border-box;
+  	gap: 3px;
+}
+.na-kocu {
+  	position: absolute;
+  	top: 4391px;
+  	left: calc(50% - 233px);
+  	width: 467px;
+  	height: 25px;
+  	text-align: center;
+  	font-size: 9px;
+  	color: #fff;
+}
+.mae-mu-giuc-l74ut8-unsplash-1 {
+  	position: absolute;
+  	top: -118px;
+  	left: 20px;
+  	width: 241px;
+  	height: 278px;
+}
+.uklad-kanapek-z-napojem-2 {
+  	position: absolute;
+  	top: 0px;
+  	left: 20px;
+  	width: 267px;
+  	height: 213px;
+}
+.uklad-kanapek-z-napojem-3-icon {
+  	position: absolute;
+  	top: -215px;
+  	left: -40px;
+  	width: 385px;
+  	height: 308px;
+  	object-fit: cover;
+}
+.hero-image {
+  	position: absolute;
+  	width: 19.46%;
+  	top: calc(50% - 676.83px);
+  	right: 14.58%;
+  	left: -0.706%;
+  	border-radius: 3px;
+  	height: 213px;
+  	overflow: hidden;
+}
+.buazrana {
+  	align-self: stretch;
+  	position: relative;
+  	letter-spacing: -0.02em;
+}
+.jestemy-mobilnym-cateringiem {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 8px;
+  	line-height: 50%;
+  	color: rgba(0, 0, 0, 0.75);
+}
+.page-title {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 241px;
+  	height: 107px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 8px;
+}
+
+
+.icon3 {
+  	position: absolute;
+  	height: 27.76%;
+  	width: 27.76%;
+  	top: 8.33%;
+  	right: 2.80%;
+  	bottom: 2.80%;
+  	left: 2.78%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.arrow-right-circle2 {
+  	width: 20px;
+  	position: relative;
+  	height:20px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.button2 {
+  	position: absolute;
+  	top: 361px;
+  	left: 0px;
+  	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  	border-radius: 3px;
+  	background-color: #000;
+  	width: 124px;
+  	height: 27px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-start;
+  	padding: 7px 0px 7px 11px;
+  	box-sizing: border-box;
+  	gap: 3px;
+  	text-align: center;
+  	font-size: 9px;
+  	color: #fff;
+}
+.page-title-parent {
+  	position: absolute;
+  	top: 473px;
+  	left: 376px;
+  	width: 257px;
+  	height: 147px;
+  	font-size: 21px;
+}
+.image-icon {
+  	position: absolute;
+  	top: 29px;
+  	left: 251px;
+  	border-radius: 3px 0px 0px 3px;
+  	width: 385px;
+  	height: 235px;
+  	overflow: hidden;
+  	object-fit: cover;
+}
+.dlaczego-warto-nas {
+  	position: absolute;
+  	top: 0px;
+  	left: 1px;
+  	letter-spacing: -0.02em;
+  	font-weight: 200;
+  	display: inline-block;
+  	width: 208px;
+}
+.wieo-i-punktualnie {
+  	width: 172px;
+  	position: relative;
+  	line-height: 50%;
+  	font-weight: 167;
+  	display: inline-block;
+}
+.dostarczamy-gotowe-kanapki {
+  	width: 172px;
+  	position: relative;
+  	line-height: 50%;
+  	color: #828282;
+  	text-align: justify;
+  	display: flex;
+  	align-items: center;
+}
+.text1 {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: center;
+  	gap: 3px;
+}
+.zamawiasz-dzie-wczeniej {
+  	width: 172px;
+  	position: relative;
+  	line-height: 50%;
+  	color: #828282;
+  	display: flex;
+  	align-items: center;
+}
+.idealne-rozwizanie-na {
+  	align-self: stretch;
+  	position: relative;
+  	line-height: 50%;
+  	color: #828282;
+}
+.text {
+  	position: absolute;
+  	top: 148px;
+  	left: 0px;
+  	width: 86px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-end;
+  	justify-content: flex-start;
+  	gap: 16px;
+  	font-size: 8px;
+}
+.button3 {
+  	position: absolute;
+  	top: 692px;
+  	left: 0px;
+  	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  	border-radius: 3px;
+  	background-color: #000;
+  	width: 77px;
+  	height: 23px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-start;
+  	padding: 7px 11px 7px 0px;
+  	box-sizing: border-box;
+  	gap: 3px;
+  	text-align: center;
+  	font-size: 9px;
+  	color: #fff;
+}
+.dlaczego-warto-nas-wybra-parent {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 208px;
+  	height: 253px;
+}
+.zdj-3 {
+  	position: absolute;
+  	top: 1982px;
+  	left: 24px;
+  	width: 636px;
+  	height: 253px;
+  	font-size: 16px;
+}
+.linie-icon {
+  	position: absolute;
+  	top: 2892px;
+  	left: 180px;
+  	width: 299px;
+  	height: 2px;
+  	opacity: 0.6;
+}
+.linie-icon2 {
+  	position: absolute;
+  	top: 3769px;
+  	left: 180px;
+  	width: 299px;
+  	height: 2px;
+  	opacity: 0.6;
+}
+.ktr-ofert-dzi {
+  	position: absolute;
+  	top: 1200px;
+  	left: calc(50% - 300px);
+  	font-size: 16px;
+  	letter-spacing: -0.02em;
+  	font-weight: 200;
+  	display: inline-block;
+  	width: 245px;
+}
+.image-icon1 {
+  	align-self: stretch;
+  	position: relative;
+  	border-radius: 3px;
+  	max-width: 100%;
+  	overflow: hidden;
+  	height: 114px;
+  	flex-shrink: 0;
+  	object-fit: cover;
+}
+.staa-oferta {
+  	width: 183px;
+  	position: relative;
+  	line-height: 50%;
+  	font-weight: 200;
+  	display: inline-block;
+}
+.posiadamy-sta-ofert {
+  	width: 183px;
+  	position: relative;
+  	line-height: 50%;
+  	color: #828282;
+  	display: flex;
+  	align-items: center;
+}
+.copy3 {
+  	width: 182.8px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 3px;
+}
+.card3 {
+  	position: absolute;
+  	top: 1306px;
+  	left: 24px;
+  	width: 297px;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 11px;
+}
+.copy4 {
+  	width: 182.8px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap:3px;
+}
+.card4 {
+  	position: absolute;
+  	top: 1306px;
+  	left: 339px;
+  	width: 297px;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 11px;
+}
+
+.strona-gwna1 {
+  	position: relative;
+  	line-height: 50%;
+  	font-weight: 167;
+  	color: #ca3ea0;
+	text-decoration: none;
+}
+
+
+
+.uwielbiam-smacznie-i {
+  	align-self: stretch;
+  	position: relative;
+  	line-height: 50%;
+  	font-weight: 167;
+  	display: inline-block;
+  	height: 23px;
+  	flex-shrink: 0;
+}
+.customer-quote3 {
+  	position: absolute;
+  	top: 3962.5px;
+  	left: 30px;
+  	border-radius: 4px;
+  	background-color: #fff;
+  	border: 1px solid #e6e6e6;
+  	box-sizing: border-box;
+  	width: 136px;
+  	height: 78px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	padding: 11px;
+  	gap: 16px;
+}
+.strona-gwna {
+  	width: 100%;
+  	position: relative;
+  	background-color: #fff;
+  	height: 1604px;
+  	overflow: hidden;
+  	text-align: left;
+  	font-size: 8px;
+  	color: #000;
+  	font-family: Inter;
+}
+}
