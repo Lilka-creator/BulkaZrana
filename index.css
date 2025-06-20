@@ -975,7 +975,11 @@ line-height: 150%; /* 30px */
 .strona-gwna
 .na-tgrze-2, 
 .na-tgrze-3{
-	transform: scale(0.9) translateX(90%) translateY(20%)
+		height: 90%;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
 	transform: scale(0.9);
     transform-origin: top center;
     width: 111.111%; /* 100 / 0.9 */
@@ -1073,8 +1077,12 @@ line-height: 150%; /* 30px */
 .card4 ,
 .strona-gwna1 ,
 .uwielbiam-smacznie-i, 
-.customer-quote3  {
-	transform: scale(0.5) translateX(50%) translateY(20%)
+.customer-quote3  { 
+	height: 50%;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
     transform: scale(0.5);
     transform-origin: top center;
     width: 200%; /* 100 / 0.9 */
