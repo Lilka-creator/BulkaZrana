@@ -1001,9 +1001,9 @@ line-height: 150%; /* 30px */
 /* Telefon max 600px (70%) */
 @media (max-width: 600px) {
   body {
-    transform: scale(0.7);
+    transform: scale(0.3);
     transform-origin: top left;
-    width: 142.857%; /* 100 / 0.7 */
+    width: 333.333%; /* 100 / 0.7 */
     overflow-x: hidden;
   }
 }
