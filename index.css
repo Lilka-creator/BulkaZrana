@@ -969,54 +969,108 @@ line-height: 150%; /* 30px */
 }
 
 
-/* Duże ekrany >1440px - brak skalowania, 100% */
-@media (min-width: 1441px) {
-  .strona-gwna,
-	.na-tgrze-3,
-	na-tgrze-2 {
-    transform: scale(1);
-    transform-origin: top left;
-    width: 100%;
-    overflow-x: visible;
-  }
-}
-
-/* Duże laptopy / monitory 1025px - 1440px - lekko pomniejszone */
 @media (min-width: 1025px) and (max-width: 1440px) {
- .strona-gwna,
-	.na-tgrze-3,
-	na-tgrze-2 {
+.main-wrapper 
+.menu-wrapped
+.frame 
+.zaloguj 
+.zaloguj:hover 
+.na-tgrze-2 
+.na-tgrze-3 	
+.logo-1-icon 
+.items1 
+.items1 a 
+.items1 a:hover 
+.to 
+.inni-ju-wyprbowali 
+.ratuj-mj-kady 
+.tomasz 
+.upada-gwiazda-buyzrana 
+.tomasz-parent
+.avatar 
+.customer-quote 
+.customer-quote1 
+.kady-znajdzie-co
+.customer-quote2 
+.buazranapl 
+.buttons-icon 
+.divider 
+.icon
+.buttons-icon1 
+.wpadlimy-ci-w 
+.wpadlimy-ci-w-container 
+.httpswwwfacebookcombuaz 
+.httpswwwinstagramcombua 
+.icon-parent 
+.stopka 
+.items 
+.bakery-4937230-2-icon 
+.image 
+.copy 
+.card 
+.image3 
+.motorbike-12869881-1 
+.delivery-6707452-1-icon
+.card1 
+.div 
+.bakery-4937230-1
+.image-4 
+.woman-1886775-1-icon
+.card2 
+.nasz-zesp-codziennie-container 
+.wybierasz-swoj-ulubion-container 
+.nasz-dostawca-przywozi-container 
+.to-takie-proste
+.zdecydowany 
+.kontakt
+.kontakt:hover 
+.icon1
+.icon1:hover
+.arrow-right-circle
+.button
+.sprawd-ofert 
+.sprawd-ofert:hover
+.button1
+.na-kocu
+.mae-mu-giuc-l74ut8-unsplash-1 
+.uklad-kanapek-z-napojem-2
+.uklad-kanapek-z-napojem-3-icon
+.hero-image
+.buazrana
+.jestemy-mobilnym-cateringiem 
+.page-title 
+.icon3 
+.arrow-right-circle2 
+.button2
+.page-title-parent
+.image-icon 
+.dlaczego-warto-nas 
+.wieo-i-punktualnie 
+.dostarczamy-gotowe-kanapki 
+.text1 
+.zamawiasz-dzie-wczeniej 
+.idealne-rozwizanie-na 
+.text 
+.button3 
+.dlaczego-warto-nas-wybra-parent 
+.zdj-3 
+.linie-icon 
+.linie-icon2 
+.ktr-ofert-dzi 
+.image-icon1 
+.staa-oferta
+.posiadamy-sta-ofert 
+.copy3 
+.card3
+.copy4 
+.card4 
+.strona-gwna1 
+.uwielbiam-smacznie-i 
+.customer-quote3 
+.strona-gwna  {
     transform: scale(0.9);
     transform-origin: top left;
-    width: 111.11%; /* 100 / 0.9 */
+    width: 111.111%; /* 100 / 0.9 */
     overflow-x: hidden;
-  }
-}
-
-/* Tablety i małe laptopy 601px - 1024px - większe pomniejszenie */
-@media (min-width: 601px) and (max-width: 1024px) {
-  .strona-gwna,
-	.na-tgrze-3,
-	na-tgrze-2 {
-    transform: scale(0.75);
-    transform-origin: top left;
-    width: 133.33%; /* 100 / 0.75 */
-    overflow-x: hidden;
-  }
-}
-
-/* Telefony do 600px - najbardziej pomniejszone */
-@media (max-width: 600px) {
- .strona-gwna,
-	.na-tgrze-3,
-	na-tgrze-2 {
-   transform: scale(0.4);
-    transform-origin: top left;
-    width: 250%;
-  }
-.strona-gwna,
-	.na-tgrze-3,
-	na-tgrze-2 {
-	font-size: 70% !important;
   }
 }
