@@ -969,7 +969,7 @@ line-height: 150%; /* 30px */
 }
 
 
-@media (min-width: 1025px) and (max-width: 1440px) {
+@media (max-width: 600px) {
 .main-wrapper 
 .menu-wrapped
 .frame 
@@ -1074,3 +1074,5 @@ line-height: 150%; /* 30px */
     overflow-x: hidden;
   }
 }
+
+
