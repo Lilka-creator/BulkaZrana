@@ -1010,9 +1010,13 @@ line-height: 150%; /* 30px */
  .strona-gwna,
 	.na-tgrze-3,
 	na-tgrze-2 {
-    transform: scale(0.5);
+   transform: scale(0.4);
     transform-origin: top left;
-    width: 200%; /* 100 / 0.5 */
-    overflow-x: hidden;
+    width: 250%;
+  }
+.strona-gwna,
+	.na-tgrze-3,
+	na-tgrze-2 {
+	font-size: 70% !important;
   }
 }
