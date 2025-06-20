@@ -1,4 +1,3 @@
-@media (min-width: 1441px) {
 
 .main-wrapper {
 	position: relative;  
@@ -968,259 +967,43 @@ line-height: 150%; /* 30px */
   	color: #000;
   	font-family: Inter;
 }
+
+
+@media (min-width: 1441px) {
+  body {
+    transform: scale(1);
+    transform-origin: top left;
+    width: 100%;
+    overflow-x: visible;
+  }
 }
+
+/* Laptop 1025px – 1440px (90%) */
+@media (min-width: 1025px) and (max-width: 1440px) {
+  body {
+    transform: scale(0.9);
+    transform-origin: top left;
+    width: 111.111%; /* 100 / 0.9 */
+    overflow-x: hidden;
+  }
+}
+
+/* Tablet 601px – 1024px (80%) */
+@media (min-width: 601px) and (max-width: 1024px) {
+  body {
+    transform: scale(0.8);
+    transform-origin: top left;
+    width: 125%; /* 100 / 0.8 */
+    overflow-x: hidden;
+  }
+}
+
+/* Telefon max 600px (70%) */
 @media (max-width: 600px) {
-
-.main-wrapper {
-  position: relative;  
-  max-width: 600px;
-  width: 100%;    
-  margin: 0 auto;          
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0 16px;
-  flex-direction: column;
-}
-
-.menu-wrapped {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  gap: 10px;
-  flex-wrap: wrap;
-}
-
-.frame {
-  position: relative;
-  width: 100px;
-  height: 36px;
-  padding: 0 12px;
-  font-size: 14px;
-}
-
-.zaloguj {
-  font-size: 14px;
-  width: 100px;
-}
-
-.na-tgrze-2 {
-  height: 72px;
-  font-size: 14px;
-  padding: 0 12px;
-}
-
-.na-tgrze-3 {
-  top: 72px;
-  height: 56px;
-  font-size: 14px;
-  justify-content: center;
-  padding: 0 12px;
-}
-
-.logo-1-icon {
-  top: -60px;
-  left: 20px;
-  width: 120px;
-  height: 120px;
-}
-
-.items1 {
-  margin: 0 auto;
-  gap: 10px;
-  font-size: 14px;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.items1 a {
-  font-size: 14px;
-  margin: 0 4px;
-}
-
-.to {
-  position: relative;
-  width: 100%;
-  height: auto;
-  padding: 20px;
-}
-
-.inni-ju-wyprbowali {
-  font-size: 24px;
-  width: 90%;
-  text-align: center;
-  margin: 20px auto 0;
-  position: relative;
-  top: auto;
-  left: auto;
-}
-
-.customer-quote, .customer-quote1, .customer-quote2 {
-  position: relative;
-  width: 90%;
-  margin: 20px auto;
-  height: auto;
-  padding: 16px;
-  gap: 24px;
-}
-
-.kady-znajdzie-co, .ratuj-mj-kady, .upada-gwiazda-buyzrana, .tomasz {
-  font-size: 14px;
-}
-
-.avatar {
-  font-size: 14px;
-}
-
-.buazranapl {
-  position: relative;
-  left: 12px;
-  font-size: 14px;
-}
-
-.buttons-icon, .buttons-icon1, .icon {
-  width: 24px;
-  height: 24px;
-  top: auto;
-  left: auto;
-  position: relative;
-}
-
-.divider {
-  width: 90%;
-  left: 5%;
-}
-
-.wpadlimy-ci-w-container, .httpswwwfacebookcombuaz, .httpswwwinstagramcombua {
-  font-size: 14px;
-  width: 90%;
-  left: auto;
-  top: auto;
-  position: relative;
-}
-
-.icon-parent {
-  width: 100%;
-  position: relative;
-  font-size: 14px;
-  margin-top: 24px;
-  left: 0;
-  top: auto;
-}
-
-.stopka {
-  height: auto;
-  padding: 20px;
-  font-size: 14px;
-}
-
-.items {
-  position: relative;
-  margin: 0 auto;
-}
-
-.na-pocztku {
-  height: 72px;
-}
-
-.bakery-4937230-2-icon,
-.bakery-4937230-1,
-.woman-1886775-1-icon,
-.motorbike-12869881-1,
-.delivery-6707452-1-icon {
-  width: 120px;
-  height: 120px;
-}
-
-.image, .image3, .image-4 {
-  height: 200px;
-  width: 100%;
-  left: 0;
-  top: auto;
-}
-
-.card, .card1, .card2 {
-  position: relative;
-  width: 90%;
-  margin: 20px auto;
-  gap: 12px;
-}
-
-.copy {
-  width: 100%;
-}
-
-.nasz-zesp-codziennie-container,
-.nasz-dostawca-przywozi-container,
-.wybierasz-swoj-ulubion-container {
-  font-size: 14px;
-  width: 90%;
-  text-align: justify;
-  margin: 12px auto;
-  top: auto;
-  left: auto;
-}
-
-.to-takie-proste, .zdecydowany {
-  font-size: 24px;
-  width: 90%;
-  margin: 20px auto;
-  text-align: center;
-}
-
-.kontakt, .sprawd-ofert {
-  font-size: 14px;
-}
-
-.arrow-right-circle, .arrow-right-circle2 {
-  width: 28px;
-  height: 28px;
-}
-
-.button, .button1 {
-  position: relative;
-  width: 90%;
-  height: 56px;
-  padding: 12px;
-  margin: 12px auto;
-  gap: 8px;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.na-kocu {
-  font-size: 16px;
-  width: 90%;
-  margin: 20px auto;
-  text-align: center;
-  position: relative;
-  top: auto;
-  left: auto;
-}
-
-.mae-mu-giuc-l74ut8-unsplash-1,
-.uklad-kanapek-z-napojem-2,
-.uklad-kanapek-z-napojem-3-icon,
-.hero-image {
-  width: 100%;
-  height: auto;
-  position: relative;
-  left: 0;
-  top: auto;
-}
-
-.buazrana {
-  font-size: 20px;
-}
-
-.jestemy-mobilnym-cateringiem {
-  font-size: 14px;
-}
-
-.page-title {
-  width: 90%;
-  margin: 0 auto;
-  gap: 16px;
-}
+  body {
+    transform: scale(0.7);
+    transform-origin: top left;
+    width: 142.857%; /* 100 / 0.7 */
+    overflow-x: hidden;
+  }
 }
