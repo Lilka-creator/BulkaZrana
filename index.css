@@ -969,6 +969,7 @@ line-height: 150%; /* 30px */
 }
 
 
+/* Duże ekrany >1440px - brak skalowania, 100% */
 @media (min-width: 1441px) {
   body {
     transform: scale(1);
@@ -978,32 +979,32 @@ line-height: 150%; /* 30px */
   }
 }
 
-/* Laptop 1025px – 1440px (90%) */
+/* Duże laptopy / monitory 1025px - 1440px - lekko pomniejszone */
 @media (min-width: 1025px) and (max-width: 1440px) {
   body {
     transform: scale(0.9);
     transform-origin: top left;
-    width: 111.111%; /* 100 / 0.9 */
+    width: 111.11%; /* 100 / 0.9 */
     overflow-x: hidden;
   }
 }
 
-/* Tablet 601px – 1024px (80%) */
+/* Tablety i małe laptopy 601px - 1024px - większe pomniejszenie */
 @media (min-width: 601px) and (max-width: 1024px) {
   body {
-    transform: scale(0.8);
+    transform: scale(0.75);
     transform-origin: top left;
-    width: 125%; /* 100 / 0.8 */
+    width: 133.33%; /* 100 / 0.75 */
     overflow-x: hidden;
   }
 }
 
-/* Telefon max 600px (70%) */
+/* Telefony do 600px - najbardziej pomniejszone */
 @media (max-width: 600px) {
   body {
-    transform: scale(0.3125);
+    transform: scale(0.5);
     transform-origin: top left;
-    width: 320%; /* 100 / 0.7 */
+    width: 200%; /* 100 / 0.5 */
     overflow-x: hidden;
   }
 }
