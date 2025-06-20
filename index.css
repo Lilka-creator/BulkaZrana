@@ -971,7 +971,9 @@ line-height: 150%; /* 30px */
 
 /* Duże ekrany >1440px - brak skalowania, 100% */
 @media (min-width: 1441px) {
-  body {
+  .strona-gwna,
+	.na-tgrze-3,
+	na-tgrze-2 {
     transform: scale(1);
     transform-origin: top left;
     width: 100%;
@@ -981,7 +983,9 @@ line-height: 150%; /* 30px */
 
 /* Duże laptopy / monitory 1025px - 1440px - lekko pomniejszone */
 @media (min-width: 1025px) and (max-width: 1440px) {
-  body {
+ .strona-gwna,
+	.na-tgrze-3,
+	na-tgrze-2 {
     transform: scale(0.9);
     transform-origin: top left;
     width: 111.11%; /* 100 / 0.9 */
@@ -991,7 +995,9 @@ line-height: 150%; /* 30px */
 
 /* Tablety i małe laptopy 601px - 1024px - większe pomniejszenie */
 @media (min-width: 601px) and (max-width: 1024px) {
-  body {
+  .strona-gwna,
+	.na-tgrze-3,
+	na-tgrze-2 {
     transform: scale(0.75);
     transform-origin: top left;
     width: 133.33%; /* 100 / 0.75 */
@@ -1001,7 +1007,9 @@ line-height: 150%; /* 30px */
 
 /* Telefony do 600px - najbardziej pomniejszone */
 @media (max-width: 600px) {
-  body {
+ .strona-gwna,
+	.na-tgrze-3,
+	na-tgrze-2 {
     transform: scale(0.5);
     transform-origin: top left;
     width: 200%; /* 100 / 0.5 */
